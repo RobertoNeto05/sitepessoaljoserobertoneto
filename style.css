@@ -1,38 +1,8 @@
+
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-header {
-    background: #508C9B;
-    color: #ECDFCC;
-    padding: 20px 0;
-    text-align: center;
-}
-nav {
-    margin: 20px 0;
-}
-nav a {
-    margin: 0 15px;
-    color: #ffffff;
-    text-decoration: none;
-}
-section {
-    padding: 20px;
-    margin: 20px;
-    background: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgb(248, 247, 247);
-}
-footer {
-    text-align: center;
-    padding: 10px;
-    background: #508C9B;
-    color: #ffffff;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    background-color: #f0f0f0;
+    padding: 50px;
 }
 
 .imagem {
@@ -60,7 +30,15 @@ footer {
     word-spacing: 30px; /* Ajuste o valor conforme necessário */
 }
 
-
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #35424a;
+    color: #ff0a0a;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
 
 .texto-espacado {
     word-spacing: 50%; /* Ajuste o valor conforme necessário */
@@ -71,15 +49,16 @@ footer {
     width: 200px; /* Ajuste o tamanho conforme necessário */
     height: 200px; /* Deve ser igual à largura para ser redonda */
     object-fit: cover; /* Garante que a imagem preencha o espaço */
-    border: 3px solid #508C9B; /* Borda opcional */
+    border: 3px solid #333; /* Borda opcional */
     margin-right: 20px; /* Espaço entre a imagem e o texto */
 }
 h1 {
-    color: #ffffff;
+    color: #333;
     margin: 0; /* Remove margem do h1 */
 }
 p {
-    color: #080808;
+    color: #555;
     max-width: 600px;
-    text-align: left;
+
 }
+
